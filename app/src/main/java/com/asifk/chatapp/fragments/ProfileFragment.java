@@ -56,7 +56,6 @@ public class ProfileFragment extends Fragment {
                 else
                 {
                     Glide.with(getContext()).load(user.getImageURL()).into(image_profile);
-
                 }
             }
 
